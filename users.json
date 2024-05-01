@@ -1,0 +1,39 @@
+{
+  "customers": [
+    {
+      "userID": "1",
+      "location": "Fairfield,CT",
+      "time_on_site": 30,
+      "frequency": 5,
+      "vip_status": true
+    },
+    {
+      "userID": "2",
+      "location": "New Haven,CT",
+      "time_on_site": 60,
+      "frequency": 1,
+      "vip_status": false
+    },
+    {
+      "userID": "3",
+      "location": "Norwalk,CT",
+      "time_on_site": 46,
+      "frequency": 2,
+      "vip_status": false
+    },
+    {
+      "userID": "4",
+      "location": "Hartford,CT",
+      "time_on_site": 120,
+      "frequency": 7,
+      "vip_status": true
+    },
+    {
+      "userID": "5",
+      "location": "Hartford,CT",
+      "time_on_site": 182,
+      "frequency": 3,
+      "vip_status": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Search</title>
+  </head>
+  <body>
+    <h1>Customer Search</h1>
+    <form action="/search" method="POST">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" /><br /><br />
+      <label for="time_on_site">Time on Site:</label>
+      <input type="number" id="time_on_site" name="time_on_site" /><br /><br />
+      <label for="frequency">Frequency:</label>
+      <input type="number" id="frequency" name="frequency" /><br /><br />
+      <label for="vip_status">VIP Status:</label>
+      <select id="vip_status" name="vip_status">
+        <option value="">Select</option>
+        <option value="True">True</option>
+        <option value="False">False</option></select
+      ><br /><br />
+      <input type="submit" value="Search" />
+    </form>
+    <form action="/" method="GET">
+      <input type="submit" value="Go Back" />
+    </form>
+  </body>
+</html>
